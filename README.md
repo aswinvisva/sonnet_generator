@@ -1,7 +1,7 @@
 # Sonnet Generator
 
 This project generates old english sonnets given a phrase of 15 words to start with. 
-This uses Tensorflow and Keras for the LSTM neural network and was trained with Shakespeare's sonnets.
+This uses Tensorflow and Keras for the LSTM neural network and was trained with Shakespeare's sonnets.The model seems to be overfitting in some scenarios which is why there are phrases that are direct excerpts from other sonnets. However, in general the model seems to be producing original content - when tested with a plagiarism checker it achieved 75% originality on this passage.
 
 An example generated sonnet:
 
